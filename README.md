@@ -12,6 +12,7 @@ Sets of observations can be combined in an ObservationSet.
 By default this is presented as a Single Page Application using Vue.
 I intend to convert this to a library so it can be incorporated into other projects.
 
+![Example](demo.png)
 ## Project setup
 ```
 yarn install
