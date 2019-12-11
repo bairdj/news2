@@ -3,6 +3,11 @@
      <h3>NEWS 2</h3>
      <ObservationSet :observation-set="observations"/>
      <span id="reset" @click="reset">Reset</span>
+     <p id="attribution">
+       Reproduced from: Royal College of Physicians. National Early Warning Score (NEWS) 2:
+       Standardising the assessment of acute-illness severity in the NHS.
+       Updated report of a working party. London: RCP, 2017.
+     </p>
    </div>
 </template>
 
@@ -34,6 +39,7 @@ export default {
   border-radius: 5px;
   padding: 1em;
   box-shadow: 0 0 10px #838A8A;
+  max-width: 480px;
 }
 
 h3 {
@@ -48,5 +54,9 @@ h3 {
   padding: 0.3em 1em;
   border-radius: 2px;
   cursor: pointer;
+}
+
+#attribution {
+  font-size: 0.6em;
 }
 </style>

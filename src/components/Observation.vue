@@ -14,7 +14,7 @@
         </div>
       </template>
       <template v-if="type === 'spo2'">
-        <div>
+        <div style="flex-grow: 1">
           <div class="scaleWrapper">
             <select v-model="observation.scale">
               <option :value="1">Scale 1</option>
