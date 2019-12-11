@@ -1,7 +1,9 @@
 {
   "name": "news2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "author": "James Baird",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
